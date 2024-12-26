@@ -63,11 +63,11 @@ toggleBackgroundButton.addEventListener("click", () => {
     document.body.style.backgroundImage = "none";
     toggleBackgroundButton.textContent = "visiblity mode";
   } else {
-    document.body.style.backgroundImage = "url('/assets/3324647.jpg')";
-    document.body.style.backgroundSize = "contain";
+    document.body.style.backgroundImage = "url('/assets/5061.jpg')";
+    // document.body.style.backgroundSize = "contain";
+    document.body.style.backgroundSize = "cover";
     document.body.style.backgroundPosition = "center"; 
 	document.body.style.backgroundRepeat = "no-repeat";
     toggleBackgroundButton.textContent = "visiblity mode";
   }
 });
-
